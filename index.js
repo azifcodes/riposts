@@ -17,6 +17,7 @@ function onCreateClick()
     if (fi.files[0] != undefined)
     {
         ic.classList.add("customHide");
+        ft.classList.add("customHide");
         lb.innerHTML = '<strong>Creating post...</strong><div class="spinner-border ml-auto text-success" role="status" aria-hidden="true"></div>';
 
         let imgurl = _URL.createObjectURL(fi.files[0]);
