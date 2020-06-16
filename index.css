@@ -1,11 +1,9 @@
 .footerFix {
-		position: fixed;
-		bottom: 0;
-		width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .customHide {
-		display: none;
+    display: none;
 }
-
-canvas {border: solid 1px black;}
